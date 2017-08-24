@@ -3,8 +3,8 @@ if ($_POST != null){
 
     $servername = "localhost";
     $username = "root";
-    $password = "pssef5hu";
-    $db_name = "job_user";
+    $password = "";
+    $db_name = "user";
 
 // Create connection
     $conn = new mysqli($servername, $username, $password, $db_name);
@@ -43,11 +43,11 @@ VALUES ('".$_POST['user_name']."', '".$_POST['mail']."', '".$_POST['text']."', '
 
     $servername = "localhost";
     $username = "root";
-    $password = "pssef5hu";
-    $db_name = "job_user";
+    $password = "";
+    $db_name = "";
 
 
-    $con = mysqli_connect('localhost','root','pssef5hu');
+    $con = mysqli_connect('localhost','root','');
     mysqli_select_db($con, 'job_user');
 
     // define how many results you want per page

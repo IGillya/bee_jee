@@ -87,8 +87,8 @@ VALUES ('".$_POST['user_name']."', '".$_POST['mail']."', '".$_POST['text']."', '
             
                           <table  id="myTable" class="table table-stripped table-bordered">'.
                             '<thead class="thead-inverse">
-                                  <th>User Name</th>'.
-                                '<th>E-mail</th>
+                                  <th>User Name<span class="glyphicon glyphicon-resize-vertical"></th>'.
+                                '<th>E-mail<span class="glyphicon glyphicon-resize-vertical"></th>
                                   <th>Text</th>
                                   <th>Image</th>
                           </thead>';
